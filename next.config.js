@@ -1,6 +1,14 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   reactStrictMode: true,
-}
-
-module.exports = nextConfig
+  images: {
+    domains: ["via.placeholder.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "example.com",
+        port: "",
+        pathname: "/account123/**",
+      },
+    ],
+  },
+};
