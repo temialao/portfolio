@@ -3,7 +3,14 @@ import React from "react";
 type Props = {};
 
 function Skills({}: Props) {
-  const skills = ["React", "Next.js", "TypeScript", "Node.js", "TailwindCSS"];
+  const skills = [
+    "React",
+    "Next.js",
+    "TypeScript",
+    "Node.js",
+    "TailwindCSS",
+    "AWS",
+  ];
 
   return (
     <div className="py-10 bg-white">

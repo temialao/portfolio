@@ -12,16 +12,15 @@ function About({}: Props) {
         </h2>
         <div className="mt-10 prose prose-lg text-gray-500">
           <p>
-            Hi, I&apos;m Temi Alao, a software developer based in XYZ. I
+            Hi, I&apos;m Temi Alao, a software developer based in Manchester. I
             specialize in developing web applications and have experience
             working with technologies such as React, Next.js, TypeScript, and
             Node.js.
           </p>
+          <br />
           <p>
             I&apos;m passionate about building software that solves real-world
-            problems and helps to make people&apos;s lives easier. In my free
-            time, I enjoy contributing to open-source projects, attending tech
-            meetups, and learning new technologies.
+            problems and helps to make people&apos;s lives easier.
           </p>
         </div>
       </div>

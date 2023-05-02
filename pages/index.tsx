@@ -5,7 +5,7 @@ import styles from "@/styles/Home.module.css";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
-import Experience from "@/components/Experience";
+// import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Blog from "@/components/Blog";
@@ -32,9 +32,9 @@ export default function Home() {
         <About />
       </section>
 
-      <section id="experience">
+      {/* <section id="experience">
         <Experience />
-      </section>
+      </section> */}
 
       <section id="skills">
         <Skills />
